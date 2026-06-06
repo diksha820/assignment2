@@ -72,3 +72,8 @@ reverse=[]
 for i in range(len(number)-1,-1,-1):
     reverse.append(number[i])
 print("reverse list",reverse)
+
+#10.Write a program to findsecond largest elemnet in a list
+number=[10,25,5,40,15]
+number.sort()
+print("second largest element :",number[-2])
