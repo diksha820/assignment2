@@ -1,3 +1,4 @@
+#function in python
 #1. Write a function to check whether a number is positive, negative, or zero. 
 """
 def check_number(num):
@@ -119,7 +120,8 @@ def sum(num):
         num//=10
     return total
 print(sum(2736))
-"""
+
+
 #15. Write a function that accepts a number n and returns the sum of all numbers from 1 to n.
 def sum(n):
     total =0
@@ -127,3 +129,12 @@ def sum(n):
         return total
     print(total)
 sum(45)
+"""
+
+
+
+#list in python
+#1.create a list of 10 numbers and print all elements
+list=[0,9,8,7,6,5,4,3,2,1]
+print(list)
+
